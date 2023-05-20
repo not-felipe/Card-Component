@@ -1,0 +1,44 @@
+.container{
+  background-color: #9f9f9f;
+  border-radius: 1rem;
+  display: flex;
+  gap: 4rem;
+  height: 30rem;
+  place-self: center;
+  padding: 4rem;
+  width: 50rem;
+  box-shadow: 0 24px 32px -16px rgba(0,0,0,0.4);
+}
+
+.poster{
+  border: 8px solid #333333;
+  box-shadow: -20px 20px 31px -6px rgba(0,0,0,0.4);
+}
+
+.container h2{
+  font-size: 1.75rem;
+}
+
+.container p{
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 2rem;
+}
+
+.container button{
+  font-size: 0.9rem;
+  border-radius: 0.5rem;
+  padding: .5rem;
+  background-color: #333333;
+  color: #9f9f9f;
+  margin-top: 2rem;
+  cursor: pointer;
+  transition: all .3s; 
+  border: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4)
+}
+
+.container button:hover{
+  margin-left: .5rem;
+  color: #fff;
+}
