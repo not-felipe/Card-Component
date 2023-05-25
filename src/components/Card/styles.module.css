@@ -8,6 +8,7 @@
   padding: 4rem;
   width: 50rem;
   box-shadow: 0 24px 32px -16px rgba(0,0,0,0.4);
+  margin: 10px;
 }
 
 .poster{
@@ -26,20 +27,3 @@
   margin-bottom: 2rem;
 }
 
-a{
-  font-size: 0.9rem;
-  border-radius: 0.5rem;
-  padding: .5rem;
-  background-color: #333333;
-  color: #9f9f9f;
-  cursor: pointer;
-  transition: all .3s; 
-  border: 0;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-  text-decoration: none;
-}
-
-a:hover{
-  margin-left: .5rem;
-  color: #fff;
-}
